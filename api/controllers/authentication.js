@@ -36,6 +36,8 @@ module.exports.register = function(req, res) {
 };
 
 module.exports.login = function(req, res) {
+  console.log("Testing here VL");
+  console.log(req.params);
 console.log(req.body);
   // if(!req.body.email || !req.body.password) {
   //   sendJSONresponse(res, 400, {
