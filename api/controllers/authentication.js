@@ -36,7 +36,7 @@ module.exports.register = function(req, res) {
 };
 
 module.exports.login = function(req, res) {
-
+console.log(req.body);
   // if(!req.body.email || !req.body.password) {
   //   sendJSONresponse(res, 400, {
   //     "message": "All fields required"
